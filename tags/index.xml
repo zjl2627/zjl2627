@@ -6,7 +6,7 @@
     <description>Recent content in Tags on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,54 @@
     <item>
       <title>Istio</title>
       <link>https://zjl2627.github.io/tags/istio/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zjl2627.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://zjl2627.github.io/tags/travel/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CHINA&amp;AMERICA</title>
+      <link>https://zjl2627.github.io/tags/chinaamerica/</link>
+      <pubDate>Fri, 13 Mar 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/chinaamerica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中美关系</title>
+      <link>https://zjl2627.github.io/tags/%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Fri, 13 Mar 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://zjl2627.github.io/tags/tips/</link>
+      <pubDate>Tue, 14 Jan 2020 11:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://zjl2627.github.io/tags/vim/</link>
+      <pubDate>Tue, 14 Jan 2020 11:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/vim/</guid>
       <description></description>
     </item>
     
@@ -75,15 +120,6 @@
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>https://zjl2627.github.io/tags/travel/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Helm</title>
       <link>https://zjl2627.github.io/tags/helm/</link>
       <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
@@ -113,27 +149,9 @@
     <item>
       <title>Docker</title>
       <link>https://zjl2627.github.io/tags/docker/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Feb 2018 10:00:00 +0000</pubDate>
       
       <guid>https://zjl2627.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://zjl2627.github.io/tags/tips/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>https://zjl2627.github.io/tags/vim/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/vim/</guid>
       <description></description>
     </item>
     

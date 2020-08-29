@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2020 16:58:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>原则读书笔记——转自谢益辉</title>
+      <link>https://zjl2627.github.io/2020/08/28/istio09/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2020/08/28/istio09/</guid>
+      <description>《原则》读书笔记 ——谢益辉 / 2020-07-19 我现在不太记得我是怎么发现达里奥的《原则》这本书的了。模糊印象中，好像是 2017 年看见一硕在什么地方提过这本书，后来</description>
+    </item>
     
     <item>
       <title>如水的目光</title>
@@ -36,6 +45,44 @@
       
       <guid>https://zjl2627.github.io/post/readme/</guid>
       <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme. It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme. These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster</description>
+    </item>
+    
+    <item>
+      <title>秘境探险</title>
+      <link>https://zjl2627.github.io/post/mylife/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/post/mylife/</guid>
+      <description>&lt;h2 id=&#34;秀奇天下雁荡山&#34;&gt;秀奇天下——雁荡山&lt;/h2&gt;
+&lt;p&gt;来浙江苍南一月有余，和朋友讨论在浙江走走看看，看最近的景点，发现雁荡山不错，于是周六买了早班车乘高铁到雁荡山站，或许疫情影响吧，游客并不是太多，一位的姐载着我们，很热心介绍雁荡山，规划最佳的旅游线路，或许疫情影响生意清淡给我报了一个很低的包车价，我们也乐意成行。
+
+
+&lt;figure &gt;
+    
+        &lt;img align=&#34;center&#34; src=&#34;https://zjl2627.github.io/img/yds/%e9%9b%81%e8%8d%a1%e5%b1%b15.png&#34; width=&#34;756&#34; height=&#34;128&#34;   /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>龙永图谈中美关系</title>
+      <link>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
+      <pubDate>Fri, 13 Mar 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <description>龙永图谈中美关系 崛起为我们带来了烦恼 我这辈子也算是搞了几件事，但是总的来讲还是在搞国际关系。不管是参与当年中国加入世界贸易组织的谈判也好，还</description>
+    </item>
+    
+    <item>
+      <title>Vim Tips</title>
+      <link>https://zjl2627.github.io/2018/02/09/vim-tips/</link>
+      <pubDate>Tue, 14 Jan 2020 11:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/02/09/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://zjl2627.github.io/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -173,33 +220,6 @@
       <description>&lt;h2 id=&#34;微服务架构的演进&#34;&gt;微服务架构的演进&lt;/h2&gt;
 &lt;p&gt;作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。&lt;/p&gt;
 &lt;p&gt;另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何配置docker使用HTTP代理</title>
-      <link>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
-      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
-&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
-
-export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim Tips</title>
-      <link>https://zjl2627.github.io/2018/02/09/vim-tips/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/2018/02/09/vim-tips/</guid>
-      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://zjl2627.github.io/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

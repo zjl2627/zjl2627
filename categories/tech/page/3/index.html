@@ -111,14 +111,18 @@
                             <a href="/categories/tips">tips</a>
                         </li>
                         
+                        <li>
+                            <a href="/categories/%E6%97%85%E6%B8%B8">旅游</a>
+                        </li>
+                        
                     
                     
 		    
-                        <li><a href="/top/books/">BOOKS</a></li>
+                        <li><a href="/top/books/">书山</a></li>
                     
-                        <li><a href="/top/about/">ABOUT</a></li>
+                        <li><a href="/top/about/">自述</a></li>
                     
-                        <li><a href="/top/space/">MYSPACE</a></li>
+                        <li><a href="/top/space/">空间</a></li>
                     
 
                     
@@ -195,6 +199,31 @@
             
 
 <div class="post-preview">
+    <a href="https://zjl2627.github.io/2018/05/23/istio-auto-injection-with-webhook/">
+        <h2 class="post-title">
+            Istio Sidecar自动注入原理
+        </h2>
+	
+        <h3 class="post-subtitle">
+            Kubernetes webhook扩展机制解析
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。 Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by     &#34;赵化冰&#34; Wednesday, May 23, 2018
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
     <a href="https://zjl2627.github.io/2018/04/16/using-helm-to-deploy-to-kubernetes/">
         <h2 class="post-title">
             Helm介绍
@@ -240,31 +269,6 @@
 </div>
 <hr>
 
-<div class="post-preview">
-    <a href="https://zjl2627.github.io/2018/03/29/what-is-service-mesh-and-istio/">
-        <h2 class="post-title">
-            谈谈微服务架构中的基础设施：Service Mesh与Istio
-        </h2>
-	
-        <h3 class="post-subtitle">
-            Service Mesh模式及Istio开源项目介绍
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性,本文介绍了Service Mesh模式如何应对微服务架构的这些挑战，以及Service Mesh的明星开源项目Istio。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by 赵化冰 Thursday, March 29, 2018
-    
-    
-    </p>
-
-</div>
-<hr>
-
 
             
 
@@ -297,7 +301,7 @@
     
     <section>
         <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
+        <h5>特色标签</h5>
         <div class="tags">
              
             
@@ -306,9 +310,7 @@
                 
             
                 
-                    <a href="/tags/docker" title="docker">
-                        docker
-                    </a>
+            
                 
             
                 
@@ -354,6 +356,12 @@
                 
             
                 
+                    <a href="/tags/travel" title="travel">
+                        travel
+                    </a>
+                
+            
+                
             
                 
             
@@ -366,7 +374,7 @@
     
 	
     <section class="visible-md visible-lg">
-	<hr><h5><a href="/top/about">ABOUT ME</a></h5>
+	<hr><h5><a href="/top/about">我的自述</a></h5>
         <div class="short-about">
             
             <a href="/top/about">
@@ -449,7 +457,7 @@
     
     <section>
         <hr class="hidden-sm hidden-xs">
-        <h5>FRIENDS</h5>
+        <h5>朋友</h5>
         <ul class="list-inline">
             
             <li><a target="_blank" href="/">sunlong的博客</a></li>

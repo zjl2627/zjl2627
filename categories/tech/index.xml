@@ -6,10 +6,19 @@
     <description>Recent content in Tech on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>原则读书笔记——转自谢益辉</title>
+      <link>https://zjl2627.github.io/2020/08/28/istio09/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2020/08/28/istio09/</guid>
+      <description>《原则》读书笔记 ——谢益辉 / 2020-07-19 我现在不太记得我是怎么发现达里奥的《原则》这本书的了。模糊印象中，好像是 2017 年看见一硕在什么地方提过这本书，后来</description>
+    </item>
     
     <item>
       <title>Istio v1aplha3 routing API介绍(译文）</title>
@@ -18,6 +27,15 @@
       
       <guid>https://zjl2627.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
       <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Istio v1aplha3 routing API介绍(译文）</title>
+      <link>https://zjl2627.github.io/2018/06/04/sunlong/01/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/06/04/sunlong/01/</guid>
+      <description>好文章</description>
     </item>
     
     <item>

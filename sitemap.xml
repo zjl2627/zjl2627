@@ -3,17 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zjl2627.github.io/post/</loc>
-    <lastmod>2020-07-29T16:58:14+08:00</lastmod>
+    <loc>https://zjl2627.github.io/categories/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zjl2627.github.io/post/myfirstpage/</loc>
-    <lastmod>2020-07-29T16:58:14+08:00</lastmod>
+    <loc>https://zjl2627.github.io/tags/istio/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/post/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/tags/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/categories/tech/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/2020/08/28/istio09/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zjl2627.github.io/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/post/myfirstpage/</loc>
     <lastmod>2020-07-29T16:58:14+08:00</lastmod>
   </url>
   
@@ -38,13 +63,53 @@
   </url>
   
   <url>
-    <loc>https://zjl2627.github.io/categories/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <loc>https://zjl2627.github.io/tags/travel/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zjl2627.github.io/tags/istio/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <loc>https://zjl2627.github.io/categories/%E6%97%85%E6%B8%B8/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/post/mylife/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/tags/chinaamerica/</loc>
+    <lastmod>2020-03-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/categories/tips/</loc>
+    <lastmod>2020-03-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/tags/%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2020-03-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</loc>
+    <lastmod>2020-03-13T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/tags/tips/</loc>
+    <lastmod>2020-01-14T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/tags/vim/</loc>
+    <lastmod>2020-01-14T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zjl2627.github.io/2018/02/09/vim-tips/</loc>
+    <lastmod>2020-01-14T11:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -53,12 +118,7 @@
   </url>
   
   <url>
-    <loc>https://zjl2627.github.io/tags/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/categories/tech/</loc>
+    <loc>https://zjl2627.github.io/2018/06/04/sunlong/01/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -69,11 +129,6 @@
   
   <url>
     <loc>https://zjl2627.github.io/2018/05/24/set_up_my_ubuntu_desktop/</loc>
-    <lastmod>2018-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/categories/tips/</loc>
     <lastmod>2018-05-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,11 +198,6 @@
   </url>
   
   <url>
-    <loc>https://zjl2627.github.io/tags/travel/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -184,27 +234,7 @@
   
   <url>
     <loc>https://zjl2627.github.io/tags/docker/</loc>
-    <lastmod>2018-03-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/tags/tips/</loc>
-    <lastmod>2018-03-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</loc>
-    <lastmod>2018-03-13T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/tags/vim/</loc>
-    <lastmod>2018-02-09T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/2018/02/09/vim-tips/</loc>
-    <lastmod>2018-02-09T11:00:00+00:00</lastmod>
+    <lastmod>2018-02-09T10:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -253,10 +283,6 @@
   
   <url>
     <loc>https://zjl2627.github.io/top/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zjl2627.github.io/top/books/</loc>
   </url>
   
   <url>

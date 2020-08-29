@@ -6,10 +6,19 @@
     <description>Recent content on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2020 16:58:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>原则读书笔记——转自谢益辉</title>
+      <link>https://zjl2627.github.io/2020/08/28/istio09/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2020/08/28/istio09/</guid>
+      <description>《原则》读书笔记 ——谢益辉 / 2020-07-19 我现在不太记得我是怎么发现达里奥的《原则》这本书的了。模糊印象中，好像是 2017 年看见一硕在什么地方提过这本书，后来</description>
+    </item>
     
     <item>
       <title>如水的目光</title>
@@ -26,7 +35,7 @@
       <pubDate>Tue, 28 Jul 2020 10:21:51 +0800</pubDate>
       
       <guid>https://zjl2627.github.io/top/space/</guid>
-      <description>往事一桩，警银联手成功阻止电信诈骗 那些数字化转型很棒的银行，为什么渐渐让人生厌 成本费用分析报告 第一个shiny程序</description>
+      <description>往事一桩，警银联手成功阻止电信诈骗 那些数字化转型很棒的银行，为什么渐渐让人生厌 成本费用分析报告 第一个shiny程序 龙永图讲中美关</description>
     </item>
     
     <item>
@@ -48,12 +57,59 @@
     </item>
     
     <item>
+      <title>秘境探险</title>
+      <link>https://zjl2627.github.io/post/mylife/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/post/mylife/</guid>
+      <description>&lt;h2 id=&#34;秀奇天下雁荡山&#34;&gt;秀奇天下——雁荡山&lt;/h2&gt;
+&lt;p&gt;来浙江苍南一月有余，和朋友讨论在浙江走走看看，看最近的景点，发现雁荡山不错，于是周六买了早班车乘高铁到雁荡山站，或许疫情影响吧，游客并不是太多，一位的姐载着我们，很热心介绍雁荡山，规划最佳的旅游线路，或许疫情影响生意清淡给我报了一个很低的包车价，我们也乐意成行。
+
+
+&lt;figure &gt;
+    
+        &lt;img align=&#34;center&#34; src=&#34;https://zjl2627.github.io/img/yds/%e9%9b%81%e8%8d%a1%e5%b1%b15.png&#34; width=&#34;756&#34; height=&#34;128&#34;   /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>龙永图谈中美关系</title>
+      <link>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
+      <pubDate>Fri, 13 Mar 2020 18:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <description>龙永图谈中美关系 崛起为我们带来了烦恼 我这辈子也算是搞了几件事，但是总的来讲还是在搞国际关系。不管是参与当年中国加入世界贸易组织的谈判也好，还</description>
+    </item>
+    
+    <item>
+      <title>Vim Tips</title>
+      <link>https://zjl2627.github.io/2018/02/09/vim-tips/</link>
+      <pubDate>Tue, 14 Jan 2020 11:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/02/09/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://zjl2627.github.io/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Istio v1aplha3 routing API介绍(译文）</title>
       <link>https://zjl2627.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zjl2627.github.io/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
       <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Istio v1aplha3 routing API介绍(译文）</title>
+      <link>https://zjl2627.github.io/2018/06/04/sunlong/01/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/06/04/sunlong/01/</guid>
+      <description>好文章</description>
     </item>
     
     <item>
@@ -185,33 +241,6 @@
     </item>
     
     <item>
-      <title>如何配置docker使用HTTP代理</title>
-      <link>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
-      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
-&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
-
-export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim Tips</title>
-      <link>https://zjl2627.github.io/2018/02/09/vim-tips/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/2018/02/09/vim-tips/</guid>
-      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://zjl2627.github.io/https://img.zhaohuabing.com/in-post/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>如何使用非root用户执行docker命令</title>
       <link>https://zjl2627.github.io/2018/02/09/docker-without-sudo/</link>
       <pubDate>Fri, 09 Feb 2018 10:00:00 +0000</pubDate>
@@ -287,7 +316,7 @@ export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zjl2627.github.io/search/placeholder/</guid>
-      <description></description>
+      <description>liangsun 孙亮 始终扎根中国农村，从事农村金融工作近15年，立志通过自身不断的努力让农民朋友享受到最前沿的金融科技而默默耕耘。</description>
     </item>
     
     <item>
@@ -297,15 +326,6 @@ export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
       
       <guid>https://zjl2627.github.io/top/about/</guid>
       <description>liangsun 孙亮 始终扎根中国农村，从事农村金融工作近15年，立志通过自身不断的努力让农民朋友享受到最前沿的金融科技而默默耕耘。 He also has strong interests in various tech stuff such as Artificial</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zjl2627.github.io/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/top/books/</guid>
-      <description>好文章 Coursera 在线课程 Machine learning 笔记讲师: 吴恩达(Andrew Ng) 课程地址：https://www.coursera.org/learn/machine-</description>
     </item>
     
   </channel>
