@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="远离尘嚣">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://zjl2627.github.io//img/64.jpg">
+    <meta property="twitter:image" content="https://zjl2627.github.io//img/64.jpg" />
+    
+
+    
+    <meta name="title" content="R语言远程连接DB2数据库" />
+    <meta property="og:title" content="R语言远程连接DB2数据库" />
+    <meta property="twitter:title" content="R语言远程连接DB2数据库" />
+    
+
+    
+    <meta name="description" content="数字化转型开始了">
+    <meta property="og:description" content="数字化转型开始了" />
+    <meta property="twitter:description" content="数字化转型开始了" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="孙亮, sunlong, sunlong, , 孙亮的网络日志, 孙亮的博客, sunlong Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, R, Kubernetes, 微服务, Microservice">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>R语言远程连接DB2数据库-孙亮的博客 | sunlong Blog</title>
+
+    <link rel="canonical" href="/2020/09/11/Rstudio-db2/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">远离尘嚣</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/life">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/note">note</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tech">tech</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tips">tips</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%97%85%E6%B8%B8">旅游</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/top/books/">书山</a></li>
+                    
+                        <li><a href="/top/about/">自述</a></li>
+                    
+                        <li><a href="/top/space/">空间</a></li>
+                    
+                        <li><a href="/top/song/">歌曲</a></li>
+                    
+
+                    
+		    <li>
+                        <a href="/search">SEARCH <img src="/img/search.png" height="15" style="cursor: pointer;" alt="Search"></a>
+		    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('https://img.zhaohuabing.com/in-post/docker.jpg')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/r%E8%AF%AD%E8%A8%80db2%E6%95%B0%E6%8D%AE%E5%BA%93" title="R语言&amp;DB2数据库">
+                            R语言&amp;DB2数据库
+                        </a>
+                        
+                    </div>
+                    <h1>R语言远程连接DB2数据库</h1>
+                    <h2 class="subheading">以前连成功过没有留下步骤，导致又摸索了两天，现在吸取教训，留下足迹...</h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                            孙亮
+                         
+                        on 
+                        Thursday, September 10, 2020
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <header>
+                    <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#r语言远程连接db2数据库">R语言远程连接DB2数据库</a>
+      <ul>
+        <li><a href="#第一步下载odbc">第一步下载odbc：</a></li>
+        <li><a href="#第二步远程虚拟机db2安装好">第二步远程虚拟机db2安装好：</a></li>
+        <li><a href="#第三步本地编目">第三步本地编目：</a></li>
+        <li><a href="#第四步odbc设置">第四步odbc设置：</a></li>
+        <li><a href="#备注">备注</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                
+                <h1 id="r语言远程连接db2数据库">R语言远程连接DB2数据库</h1>
+<h2 id="第一步下载odbc">第一步下载odbc：</h2>
+<p>驱动地址：
+<a href="http://dasapp.oregon.gov/datamart/files/v9.7fp4_nt32_rtcl_EN.exe">http://dasapp.oregon.gov/datamart/files/v9.7fp4_nt32_rtcl_EN.exe</a>
+并安装，激活秘钥：VMware12激活码
+5A02H-AU243-TZJ49-GTC7K-3C61N</p>
+<h2 id="第二步远程虚拟机db2安装好">第二步远程虚拟机db2安装好：</h2>
+<p>设置：DB2COMM=TCP/IP
+设置远程端口(默认设置50000，我设置的50002)：
+在linux  ../etc/services
+db2c_db2inst1 50002/tcp</p>
+<h2 id="第三步本地编目">第三步本地编目：</h2>
+<p>db2 catalog tcpip node NDE3DB29 remote 192.168.1.10 server 50002
+db2 catalog db sample as sp1 at node NDE3DB29
+或者CATALOG TCPIP NODE N_TEST REMOTE 192.168.1.10 SERVER 50007 REMOTE_INSTANCE db2inst1 SYSTEM 192.168.1.10 OSTYPE WIN
+删除本地编目方法：db2 uncatalog node N_TEST；查看本地编目方法list node directory
+删除本地库方法：db2 uncatalog db N_TEST；查看本地库方法list db directory
+远程连接：
+connect to sp1 user db2inst1 using password</p>
+<h2 id="第四步odbc设置">第四步odbc设置：</h2>
+<p>在控制面板&gt;管理工具&gt;ODBC32位中选择db2 odbc diliver，选择编目数据库别名SP1，数据库SP1，测试远程成功保存。</p>
+<h2 id="备注">备注</h2>
+<p>Rstudio：
+library(RODBC)
+channel &lt;- odbcConnect(&ldquo;SP1&rdquo;, uid=&quot;db2inst1&rdquo;, pwd=&quot;password&rdquo;)
+zq&lt;-sqlQuery(channel,&ldquo;SELECT * FROM employee&rdquo;)
+设置规避科学计数法：
+options(scipen = 200)
+版本不兼容：
+是版本不兼容造成，我怕麻烦，直接把Rstudio改为了32位： 点击Tools -&gt; Global options  -&gt; 修改R version</p>
+
+
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p>「真诚赞赏，手留余香」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		<span class="author"><a href="https://zjl2627.github.io/"><img src="/img/%e5%ae%b6%e4%ba%ba.jpg" />远离尘嚣</a></span>
+        
+	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="2">2元</button>
+			<button class="btn btn-blink" data-num="5">5元</button>
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="50">50元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			<button class="btn btn-bred" id="pay-text">2元</button>
+			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
+	</div>
+</div>
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/date/misdake-farisolation/" data-toggle="tooltip" data-placement="top" title="白等了一晚">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/istio" title="istio">
+                            istio
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/kubernetes" title="kubernetes">
+                            kubernetes
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/microservice" title="microservice">
+                            microservice
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/security" title="security">
+                            security
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/service-mesh" title="service-mesh">
+                            service-mesh
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/travel" title="travel">
+                            travel
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://zjl2627.github.io/">sunlong的博客</a></li>
+                        
+                        <li><a target="_blank" href="https://www.baidu.com">百度</a></li>
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="远离尘嚣" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:youremail@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    <li>
+                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wechat fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/yourgithub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+            
+                    
+                    
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; 远离尘嚣 2020
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+</body>
+</html>
