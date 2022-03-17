@@ -6,10 +6,19 @@
     <description>Recent content on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 10 Sep 2020 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jul 2021 16:58:14 +0800</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如水的目光</title>
+      <link>https://zjl2627.github.io/post/myfirstpage/</link>
+      <pubDate>Thu, 29 Jul 2021 16:58:14 +0800</pubDate>
+      
+      <guid>https://zjl2627.github.io/post/myfirstpage/</guid>
+      <description>如水的目光 我未敢开启你如梦的世界 我的心随着你的目光而搏动 我那海洋般的感情 你是倒映其中全部的月亮 你如水的目光在我心头荡漾 我积攒多年的感情啊！ 明</description>
+    </item>
     
     <item>
       <title>R语言远程连接DB2数据库</title>
@@ -39,12 +48,12 @@
     </item>
     
     <item>
-      <title>如水的目光</title>
-      <link>https://zjl2627.github.io/post/myfirstpage/</link>
-      <pubDate>Wed, 29 Jul 2020 16:58:14 +0800</pubDate>
+      <title>Books</title>
+      <link>https://zjl2627.github.io/top/books/</link>
+      <pubDate>Tue, 28 Jul 2020 10:21:51 +0800</pubDate>
       
-      <guid>https://zjl2627.github.io/post/myfirstpage/</guid>
-      <description>如水的目光 我未敢开启你如梦的世界 我的心随着你的目光而搏动 我那海洋般的感情 你是倒映其中全部的月亮 你如水的目光在我心头荡漾 我积攒多年的感情啊！ 明</description>
+      <guid>https://zjl2627.github.io/top/books/</guid>
+      <description>好文章 学习心得 一个哲学家的灵魂三问 谭世文的理想国 发布时间：19-05-1422:42 一个哲学家最大的问题，就是总不停地思考问题，而且还自问自</description>
     </item>
     
     <item>
@@ -344,15 +353,6 @@
       
       <guid>https://zjl2627.github.io/top/about/</guid>
       <description>liangsun 孙亮 始终扎根中国农村，从事农村金融工作近15年，立志通过自身不断的努力让农民朋友享受到最前沿的金融科技而默默耕耘。 He also has strong interests in various tech stuff such as Artificial</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zjl2627.github.io/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/top/books/</guid>
-      <description>好文章 学习心得</description>
     </item>
     
   </channel>
