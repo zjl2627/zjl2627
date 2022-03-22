@@ -6,17 +6,35 @@
     <description>Recent content in Posts on 远离尘嚣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Jul 2021 16:58:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zjl2627.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>如水的目光</title>
-      <link>https://zjl2627.github.io/post/myfirstpage/</link>
+      <title>追随·远离尘嚣</title>
+      <link>https://zjl2627.github.io/date/hello-farisolation/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/date/hello-farisolation/</guid>
+      <description>“Yeah I love farisolation. ” 追随·远离尘嚣 我追随着你的身影 你曾小憩过的亭台 那儿镌刻着我的心事 我心爱的人儿当你消失在我的视野 心如死灰 春天的温暖暖不开我冰</description>
+    </item>
+    
+    <item>
+      <title>冬日</title>
+      <link>https://zjl2627.github.io/post/%E5%86%AC%E6%97%A5/</link>
       <pubDate>Thu, 29 Jul 2021 16:58:14 +0800</pubDate>
       
-      <guid>https://zjl2627.github.io/post/myfirstpage/</guid>
+      <guid>https://zjl2627.github.io/post/%E5%86%AC%E6%97%A5/</guid>
+      <description>冬日 冬日的我脸颊上绽满了笑容 我的所爱 宁静、舒心、自由辽阔 冬日赋予了我一切 没有春的浮躁 夏的难耐 秋的落魄 自由与冬麦白皙的雪被 凉爽的惬意 可以狂舞 放</description>
+    </item>
+    
+    <item>
+      <title>如水的目光</title>
+      <link>https://zjl2627.github.io/post/%E5%A6%82%E6%B0%B4%E7%9A%84%E7%9B%AE%E5%85%89/</link>
+      <pubDate>Thu, 29 Jul 2021 16:58:14 +0800</pubDate>
+      
+      <guid>https://zjl2627.github.io/post/%E5%A6%82%E6%B0%B4%E7%9A%84%E7%9B%AE%E5%85%89/</guid>
       <description>如水的目光 我未敢开启你如梦的世界 我的心随着你的目光而搏动 我那海洋般的感情 你是倒映其中全部的月亮 你如水的目光在我心头荡漾 我积攒多年的感情啊！ 明</description>
     </item>
     
@@ -45,15 +63,6 @@
       
       <guid>https://zjl2627.github.io/2020/08/28/istio09/</guid>
       <description>《原则》读书笔记 ——谢益辉 / 2020-07-19 我现在不太记得我是怎么发现达里奥的《原则》这本书的了。模糊印象中，好像是 2017 年看见一硕在什么地方提过这本书，后来</description>
-    </item>
-    
-    <item>
-      <title>追随·远离尘嚣</title>
-      <link>https://zjl2627.github.io/date/hello-farisolation/</link>
-      <pubDate>Mon, 27 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/date/hello-farisolation/</guid>
-      <description>“Yeah I love farisolation. ” 追随·远离尘嚣 我追随着你的身影 你曾小憩过的亭台 那儿镌刻着我的心事 我心爱的人儿当你消失在我的视野 心如死灰 春天的温暖暖不开我冰</description>
     </item>
     
     <item>
@@ -201,17 +210,6 @@
     </item>
     
     <item>
-      <title>川西秘境探险</title>
-      <link>https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/</guid>
-      <description>&lt;h2 id=&#34;寻浮云牧场不遇&#34;&gt;寻浮云牧场不遇&lt;/h2&gt;
-&lt;p&gt;五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
-大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Helm介绍</title>
       <link>https://zjl2627.github.io/2018/04/16/using-helm-to-deploy-to-kubernetes/</link>
       <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
@@ -308,6 +306,41 @@
       <description>&lt;h2 id=&#34;服务网格简介&#34;&gt;服务网格简介&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;服务网格&lt;/strong&gt;（Service Mesh）是为解决微服务的通信和治理而出现的一种&lt;strong&gt;架构模式&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;服务网格将服务间通讯以及与此相关的管理控制功能从业务程序中下移到一个基础设施层，从而彻底隔离了业务逻辑和服务通讯两个关注点。采用服务网格后，应用开发者只需要关注并实现应用业务逻辑。服务之间的通信，包括服务发现，通讯的可靠性，通讯的安全性，服务路由等由服务网格层进行处理，并对应用程序透明。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>踏青</title>
+      <link>https://zjl2627.github.io/post/%E8%B8%8F%E9%9D%92/</link>
+      <pubDate>Sat, 13 Apr 2002 16:58:14 +0800</pubDate>
+      
+      <guid>https://zjl2627.github.io/post/%E8%B8%8F%E9%9D%92/</guid>
+      <description>踏青 初春 起了几场沙尘 刚见杨柳发芽的几天 天空飘起了雪花 有了暖冬 却模糊了春的概念 当万物把春的讯息散尽 麻木的思想才有所察觉 独酌婆娑的青枝 纠曲的小河</description>
+    </item>
+    
+    <item>
+      <title>作者的青春时代</title>
+      <link>https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/</link>
+      <pubDate>Mon, 25 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/</guid>
+      <description>&lt;h1 id=&#34;序&#34;&gt;序&lt;/h1&gt;
+&lt;p&gt;文章不是无情无，字字句句皆关情，真所谓“荷花柳叶识人语，月光小径皆有情”&lt;/p&gt;
+&lt;h2 id=&#34;看似寻常最奇崛-成如容易却艰辛&#34;&gt;看似寻常最奇崛 成如容易却艰辛&lt;/h2&gt;
+&lt;h2 id=&#34;安妮日记读后感&#34;&gt;安妮日记读后感&lt;/h2&gt;
+&lt;p&gt;2002年3月25日 星期一 晴天&lt;/p&gt;
+&lt;p&gt;算的上心血来潮吧！读了《安妮日记》后，真切的发现人生是短暂的，暮年夕阳下翻阅发黄的日记本，那将是何等的惬意。&lt;br&gt;
+青春年少的我，时间迅逝，总得留些什么？&lt;br&gt;
+有人说思想是气体，说话是液体，写下才是固体。我何必吝啬那一点笔墨呢！&lt;br&gt;
+写，应该写！&lt;br&gt;
+让思想结晶，让话语凝固，让感情留痕。&lt;br&gt;
+我是个爱干净的人，本子感光般崭新，唯独一手的脏字，写不好，看上去乱七八糟，想练却无从下手。&lt;br&gt;
+于是练字与写日记同时进行。&lt;br&gt;
+亲爱的，太多话想说，但是时间不允许，至此搁笔。&lt;br&gt;
+顺提一下我的笔名————细雨惊心&lt;/p&gt;
+&lt;h2 id=&#34;踏青的起意&#34;&gt;踏青的起意&lt;/h2&gt;
+&lt;p&gt;2002年4月13日 星期六  绝好的天气&lt;/p&gt;
+&lt;p&gt;非常美妙的一天，蓝天碧水、畅快、爽凉的微风，地上斑驳的树影，菜籽花香扑鼻，一派欣欣向荣的景色。&lt;br&gt;
+愚昧、迟钝的我才刚刚迈进春天的门槛，索然提诗一首《踏青》足见我此段时间若有所思的情怀。&lt;/p&gt;</description>
     </item>
     
   </channel>
