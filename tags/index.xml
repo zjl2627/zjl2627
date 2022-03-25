@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>杂记</title>
+      <link>https://zjl2627.github.io/tags/%E6%9D%82%E8%AE%B0/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zjl2627.github.io/tags/%E6%9D%82%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Istio</title>
       <link>https://zjl2627.github.io/tags/istio/</link>
       <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
@@ -75,15 +84,6 @@
     </item>
     
     <item>
-      <title>ubuntu</title>
-      <link>https://zjl2627.github.io/tags/ubuntu/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Microservice</title>
       <link>https://zjl2627.github.io/tags/microservice/</link>
       <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
@@ -129,47 +129,11 @@
     </item>
     
     <item>
-      <title>Helm</title>
-      <link>https://zjl2627.github.io/tags/helm/</link>
-      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/helm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API Gateway</title>
-      <link>https://zjl2627.github.io/tags/api-gateway/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>service Mesh</title>
-      <link>https://zjl2627.github.io/tags/service-mesh/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>https://zjl2627.github.io/tags/docker/</link>
       <pubDate>Fri, 09 Feb 2018 10:00:00 +0000</pubDate>
       
       <guid>https://zjl2627.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nginmesh</title>
-      <link>https://zjl2627.github.io/tags/nginmesh/</link>
-      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://zjl2627.github.io/tags/nginmesh/</guid>
       <description></description>
     </item>
     
