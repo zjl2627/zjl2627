@@ -97,6 +97,10 @@
                     
                         
                         <li>
+                            <a href="/categories/life">life</a>
+                        </li>
+                        
+                        <li>
                             <a href="/categories/note">note</a>
                         </li>
                         
@@ -114,6 +118,10 @@
                         
                         <li>
                             <a href="/categories/%E6%97%85%E6%B8%B8">旅游</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E6%9D%82%E8%AE%B0">杂记</a>
                         </li>
                         
                         <li>
@@ -206,6 +214,94 @@
             
 
 <div class="post-preview">
+    <a href="https://zjl2627.github.io/2018/02/09/docker-without-sudo/">
+        <h2 class="post-title">
+            如何使用非root用户执行docker命令
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            如何使用非root用户执行docker命令
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by 赵化冰 Friday, February 9, 2018
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://zjl2627.github.io/2018/05/22/user_authentication_authorization/">
+        <h2 class="post-title">
+            如何构建安全的微服务应用？
+        </h2>
+	
+        <h3 class="post-subtitle">
+            微服务架构下的认证和鉴权方案探讨
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            微服务架构的引入为软件应用带来了诸多好处：包括小开发团队，缩短开发周期，语言选择灵活性，增强服务伸缩能力等。与此同时，也引入了分布式系统的诸多复杂问题。其中一个挑战就是如何在微服务架构中实现一个灵活，安全，高效的认证和鉴权方案。本文将尝试就此问题进行一次比较完整的探讨。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by 赵化冰 Saturday, February 3, 2018
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://zjl2627.github.io/2018/01/02/nginmesh-install/">
+        <h2 class="post-title">
+            Nginx开源Service Mesh组件Nginmesh安装指南
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            Nginmesh是NGINX的Service Mesh开源项目，用于Istio服务网格平台中的数据面代理。它旨在提供七层负载均衡和服务路由功能，与Istio集成作为sidecar部署，并将以“标准，可靠和安全的方式”使得服务间通信更容易。Nginmesh在今年底已经连续发布了0.2和0.3版本，提供了服务发现，请求转发，路由规则，性能指标收集等功能。本文介绍如何采用kubeadmin安装kubernetes集群并部署Nginmesh sidecar。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by 赵化冰 Tuesday, January 2, 2018
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://zjl2627.github.io/2017/11/28/access-application-from-outside/">
+        <h2 class="post-title">
+            如何从外部访问Kubernetes集群中的应用？
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            我们知道，kubernetes的Cluster Network属于私有网络，只能在cluster Network内部才能访问部署的应用，那如何才能将Kubernetes集群中的应用暴露到外部网络，为外部用户提供服务呢？本文探讨了从外部网络访问kubernetes cluster中应用的几种实现方式。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by 赵化冰 Tuesday, November 28, 2017
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
     <a href="https://zjl2627.github.io/2017/11/08/istio-canary-release/">
         <h2 class="post-title">
             采用Istio实现灰度发布(金丝雀发布)
@@ -230,137 +326,6 @@
 </div>
 <hr>
 
-<div class="post-preview">
-    <a href="https://zjl2627.github.io/2017/11/07/istio-traffic-shifting/">
-        <h2 class="post-title">
-            使用Istio实现应用流量转移
-        </h2>
-	
-        <h3 class="post-subtitle">
-              &#34;本文翻译自istio官方文档&#34;
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            本任务将演示如何将应用流量逐渐从旧版本的服务迁移到新版本。通过Istio，可以使用一系列不同权重的规则（10%，20%，··· 100%）将流量平缓地从旧版本服务迁移到新版本服务。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by     &#34;赵化冰&#34; Tuesday, November 7, 2017
-    
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://zjl2627.github.io/2017/11/04/istio-install_and_example/">
-        <h2 class="post-title">
-            Istio及Bookinfo示例程序安装试用笔记
-        </h2>
-	
-        <h3 class="post-subtitle">
-            手把手教你从零搭建Istio及Bookinfo示例程序
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            Istio是来自Google，IBM和Lyft的一个Service Mesh（服务网格）开源项目，是Google继Kubernetes之后的又一大作,本文将演示如何从裸机开始从零搭建Istio及Bookinfo示例程序。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by 赵化冰 Saturday, November 4, 2017
-    
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://zjl2627.github.io/post/%E8%B8%8F%E9%9D%92/">
-        <h2 class="post-title">
-            踏青
-        </h2>
-	
-        <h3 class="post-subtitle">
-            若有所思的情怀
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            踏青 初春 起了几场沙尘 刚见杨柳发芽的几天 天空飘起了雪花 有了暖冬 却模糊了春的概念 当万物把春的讯息散尽 麻木的思想才有所察觉 独酌婆娑的青枝 纠曲的小河
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by 细雨惊心 Saturday, April 13, 2002
-    
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://zjl2627.github.io/2018/05/01/may-day-jiulonghu/">
-        <h2 class="post-title">
-            作者的青春时代
-        </h2>
-	
-        <h3 class="post-subtitle">
-            少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。 而今识尽愁滋味，欲说还休。欲说还休，却道天凉好个秋。
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            <h1 id="序">序</h1>
-<p>文章不是无情无，字字句句皆关情，真所谓“荷花柳叶识人语，月光小径皆有情”</p>
-<h2 id="看似寻常最奇崛-成如容易却艰辛">看似寻常最奇崛 成如容易却艰辛</h2>
-<h2 id="安妮日记读后感">安妮日记读后感</h2>
-<p>2002年3月25日 星期一 晴天</p>
-<p>算的上心血来潮吧！读了《安妮日记》后，真切的发现人生是短暂的，暮年夕阳下翻阅发黄的日记本，那将是何等的惬意。<br>
-青春年少的我，时间迅逝，总得留些什么？<br>
-有人说思想是气体，说话是液体，写下才是固体。我何必吝啬那一点笔墨呢！<br>
-写，应该写！<br>
-让思想结晶，让话语凝固，让感情留痕。<br>
-我是个爱干净的人，本子感光般崭新，唯独一手的脏字，写不好，看上去乱七八糟，想练却无从下手。<br>
-于是练字与写日记同时进行。<br>
-亲爱的，太多话想说，但是时间不允许，至此搁笔。<br>
-顺提一下我的笔名————细雨惊心</p>
-<h2 id="踏青的起意">踏青的起意</h2>
-<p>2002年4月13日 星期六  绝好的天气</p>
-<p>非常美妙的一天，蓝天碧水、畅快、爽凉的微风，地上斑驳的树影，菜籽花香扑鼻，一派欣欣向荣的景色。<br>
-愚昧、迟钝的我才刚刚迈进春天的门槛，索然提诗一首《踏青》足见我此段时间若有所思的情怀。</p>
-<h2 id="糟糕的一天">糟糕的一天</h2>
-<p>2002年4月20日 星期六 晴
-我今天才发现健康的重要性。我很消瘦，时长自我安慰省了不少减肥的钱。因而我曾不加节制的挥霍身体，然而我现在明白了身体只有一具，弄垮了没法替换，正如人生只有一会，过坏了，过好了无法重来。</p>
-<p>有一段时间没有回家，吃够了那难以下咽的饭菜，回到家，居然吃的毫无节制，有预兆的，我的肚子曾给我发出超负荷运作的信号，我却忽略，最终给我难受的一天。<br>
-在加上今天发的期中试卷，倒霉的事一刻也不停的袭击我。<br>
-俗话说休息好才能学习好，我却狭隘的认为休息就是睡眠。<br>
-然而学了几年哲学的我<br>
-在学习中是形而上的，在生活中是形而下的<br>
-对物质的本质是运动，运动是物的运动<br>
-我也曾说我崇尚运动，却未参与运动<br>
-有时的我有些轻浮、夸夸其谈、空洞虚乏<br>
-在探讨人生去向时，永远处于被动<br>
-总是得到教训才改正<br>
-为什么不提前预防一下呢？现在拥有的要珍惜，因为它为将来拥有的创造了条件。</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    Posted by 细雨惊心 Monday, March 25, 2002
-    
-    
-    </p>
-
-</div>
-<hr>
-
 
             
 
@@ -371,6 +336,10 @@
         <a href="/page/5/">&larr; Newer Posts</a>
     </li>
     
+    
+    <li class="next">
+        <a href="/page/7/">Older Posts &rarr;</a>
+    </li>
     
 </ul>
 
@@ -449,6 +418,8 @@
                     <a href="/tags/travel" title="travel">
                         travel
                     </a>
+                
+            
                 
             
                 
